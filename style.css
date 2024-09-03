@@ -1,0 +1,21 @@
+.menu.visible{
+    background-color: gray;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: auto;
+    border-radius: 1rem;
+}
+.menuItem{
+    padding:1rem;
+    color:white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    flex: 1;
+}
+.menuItem:hover{
+    background-color: rgb(80, 80, 80);
+}
+.menu.hidden{
+    display: none;
+}
